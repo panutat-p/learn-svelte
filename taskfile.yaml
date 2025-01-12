@@ -11,4 +11,8 @@ tasks:
 
   dev:
     cmds:
-      - npx vite dev
+      - npx vite
+
+  build:
+    cmds:
+      - npx vite build
