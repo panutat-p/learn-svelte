@@ -2,6 +2,12 @@
 
 https://github.com/panutat-p/learn-svelte
 
+## Routing
+
+https://github.com/kokizzu/svelte-mpa
+
+https://github.com/mefechoel/svelte-navigator
+
 ## Technical considerations
 
 **Why use this over SvelteKit?**
