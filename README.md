@@ -2,6 +2,26 @@
 
 https://github.com/panutat-p/learn-svelte
 
+## Alias import
+
+```sh
+npm i -D @types/node
+```
+
+```ts
+import { fileURLToPath, URL } from 'node:url'
+
+export default defineConfig({
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
+})
+```
+
+https://vueschool.io/articles/vuejs-tutorials/import-aliases-in-vite
+
 ## Routing
 
 https://github.com/kokizzu/svelte-mpa
