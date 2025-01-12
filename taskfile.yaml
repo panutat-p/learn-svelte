@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  install:
+    cmds:
+      - npm i
+
+  lint:
+    cmds:
+      - npx prettier --write .
+
+  dev:
+    cmds:
+      - npx vite dev
