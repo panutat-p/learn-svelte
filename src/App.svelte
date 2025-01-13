@@ -1,7 +1,9 @@
 <script lang="ts">
   import svelteLogo from '@/assets/svelte.svg'
   import viteLogo from '/vite.svg'
-  import Counter from '@/lib/Counter.svelte'
+  import Counter from './lib/Counter.svelte'
+  import List from './components/List.svelte'
+  import Button from './components/Button.svelte'
 </script>
 
 <main>
@@ -22,6 +24,9 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+
+  <Button color='#242526' backgroundColor='#13eb91' />
+  <List title='Numbers' />
 </main>
 
 <style>
