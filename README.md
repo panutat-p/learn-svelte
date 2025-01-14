@@ -24,9 +24,7 @@ https://vueschool.io/articles/vuejs-tutorials/import-aliases-in-vite
 
 ## Routing
 
-https://github.com/kokizzu/svelte-mpa
-
-https://github.com/mefechoel/svelte-navigator
+https://github.com/jorgegorka/svelte-router
 
 ## Technical considerations
 
