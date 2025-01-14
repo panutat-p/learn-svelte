@@ -2,8 +2,6 @@
   import svelteLogo from '@/assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
-  import List from './components/List.svelte'
-  import Button from './components/Button.svelte'
 </script>
 
 <main>
@@ -15,21 +13,45 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
 
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
 
-  <Button color='#242526' backgroundColor='#13eb91' />
-  <List title='Numbers' />
+  <div class="card">
+    <Counter />
+  </div>
 </main>
 
 <style>
+  :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+
+  .card {
+    padding: 2em;
+  }
+
   .logo {
     height: 6em;
     padding: 1.5em;
