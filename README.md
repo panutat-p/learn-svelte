@@ -2,6 +2,11 @@
 
 https://github.com/panutat-p/learn-svelte
 
+## Docs
+
+- https://svelte.dev/docs/svelte/$props
+- https://svelte.dev/docs/svelte/$effect
+
 ## Alias import
 
 ```sh
