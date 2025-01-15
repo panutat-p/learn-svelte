@@ -2,6 +2,7 @@
   import svelteLogo from '@/assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import Pointer from './components/Pointer.svelte'
 </script>
 
 <main>
@@ -21,6 +22,8 @@
   <div class="card">
     <Counter />
   </div>
+
+  <Pointer />
 </main>
 
 <style>
