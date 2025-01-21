@@ -3,6 +3,7 @@
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
   import Pointer from './components/Pointer.svelte'
+  import Condition from './components/Condition.svelte'
 </script>
 
 <main>
@@ -24,6 +25,8 @@
   </div>
 
   <Pointer />
+
+  <Condition />
 </main>
 
 <style>
