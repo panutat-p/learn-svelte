@@ -1,9 +1,9 @@
 <script lang="ts">
   import svelteLogo from '@/assets/svelte.svg'
   import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
   import Pointer from './components/Pointer.svelte'
   import Condition from './components/Condition.svelte'
+  import BigRedButton from './components/BigRedButton.svelte'
 </script>
 
 <main>
@@ -20,13 +20,11 @@
     Click on the Vite and Svelte logos to learn more
   </p>
 
-  <div class="card">
-    <Counter />
-  </div>
-
   <Pointer />
 
   <Condition />
+
+  <BigRedButton />
 </main>
 
 <style>
@@ -52,10 +50,6 @@
   }
   a:hover {
     color: #535bf2;
-  }
-
-  .card {
-    padding: 2em;
   }
 
   .logo {
